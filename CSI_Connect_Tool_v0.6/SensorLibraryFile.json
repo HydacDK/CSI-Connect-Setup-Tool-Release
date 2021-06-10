@@ -1,0 +1,4152 @@
+[
+{
+  "Type": 0,
+  "Name": "Off/Namual",
+  "Unit": "Off",
+  "Min": 0,
+  "Max": 0,
+  "Smart": 0,
+  "Material no": 0,
+  "Note": ""
+},
+  {
+  "Type": 1,
+  "Name": "AS 1108-C-000(temp)",
+  "Unit": "Deg C",
+  "Min": -25,
+  "Max": 100,
+  "Smart": 0,
+  "Material no": 909896,
+  "Note": "Attention: Adapter required. The AS100 series sensor has two analogue output channels. these must be split to two analogue channels in on the CSI-C-12. This setting represents the temperature signal on pin 4. Pin 3 GND must be connected to GND pin of CSI-C-12 input channel \n"
+},
+  {
+  "Type": 1,
+  "Name": "AS 1108-C-000(saturation)",
+  "Unit": "%",
+  "Min": 0,
+  "Max": 100,
+  "Smart": 0,
+  "Material no": 909896,
+  "Note": "Attention: Adapter required. The AS100 series sensor has two analogue output channels. these must be split to two analogue channels in on the CSI-C-12. This setting represents the saturation signal on pin 2. Pin 3 GND must be connected to GND pin of CSI-C-12 input channel \n"
+},
+{
+  "Type": 2,
+  "Name": "HLB 14J8-1C000-000",
+  "Unit": " ",
+  "Min": 0,
+  "Max": 200,
+  "Smart": 1,
+  "Material no": 923684,
+  "Note": "Attention: Adapter required. Check output of sensor, analogue out should go to signal pin of the CSI-C-12 while GND should go to GND. \n"
+},
+{
+  "Type": 2,
+  "Name": "HLB 14JP-1CS12-000",
+  "Unit": " ",
+  "Min": 0,
+  "Max": 200,
+  "Smart": 1,
+  "Material no": 924229,
+  "Note": "Attention: Adapter required. Check output of sensor, analogue out should go to signal pin of the CSI-C-12 while GND should go to GND. \n"
+},
+{
+  "Type": 1,
+  "Name": "HDA 4146-A-0010-000-E1",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 10,
+  "Smart": 0,
+  "Material no": 924653,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4146-A-0020-000-F1(PSI)",
+  "Unit": "PSI",
+  "Min": 0,
+  "Max": 20,
+  "Smart": 0,
+  "Material no": 909789,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4176-A-0020-000-F1(PSI)",
+  "Unit": "PSI",
+  "Min": 0,
+  "Max": 20,
+  "Smart": 0,
+  "Material no": 924514,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4186-A-0015-000-F1(psi)",
+  "Unit": "PSI",
+  "Min": 0,
+  "Max": 15,
+  "Smart": 0,
+  "Material no": 922761,
+  "Note": ""
+},
+{
+  "Type": 3,
+  "Name": "HDA 4186-B-0015-000-F1(psi)",
+  "Unit": "PSI",
+  "Min": 0,
+  "Max": 15,
+  "Smart": 0,
+  "Material no": 908944,
+  "Note": "Attention: Adapter required, pin 3 and 4 needs to be switched around. \n"
+},
+{
+  "Type": 3,
+  "Name": "HDA 4186-B-0050-000-F1(psi)",
+  "Unit": "PSI",
+  "Min": 0,
+  "Max": 50,
+  "Smart": 0,
+  "Material no": 922559,
+  "Note": "Attention: Adapter required, pin 3 and 4 needs to be switched around. \n"
+},
+{
+  "Type": 1,
+  "Name": "HDA 4316-A-0001-000-F1(-1..+1bar)",
+  "Unit": "BAR",
+  "Min": -1,
+  "Max": 1,
+  "Smart": 0,
+  "Material no": 923641,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4316-A-0009-000-E1(-1..+9bar)",
+  "Unit": "BAR",
+  "Min": -1,
+  "Max": 9,
+  "Smart": 0,
+  "Material no": 923750,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4316-A-0010-000-E1",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 10,
+  "Smart": 0,
+  "Material no": 922056,
+  "Note": ""
+},
+{
+  "Type": 3,
+  "Name": "HDA 4316-B-0010-000-F1",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 10,
+  "Smart": 0,
+  "Material no": 925628,
+  "Note": "Attention: Adapter required, pin 3 and 4 needs to be switched around. \n"
+},
+{
+  "Type": 1,
+  "Name": "HDA 4346-A-0001-000-F1(-1..1bar)",
+  "Unit": "BAR",
+  "Min": -1,
+  "Max": 1,
+  "Smart": 0,
+  "Material no": 908952,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4346-A-0001-AN1-000-F1(-1...+1bar)",
+  "Unit": "BAR",
+  "Min": -1,
+  "Max": 1,
+  "Smart": 0,
+  "Material no": 921709,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4346-A-0001-EN1-000-F1(-1..+1bar)",
+  "Unit": "BAR",
+  "Min": -1,
+  "Max": 1,
+  "Smart": 0,
+  "Material no": 928289,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4346-A-0001-IN1-000-F1(-1...+1bar)",
+  "Unit": "BAR",
+  "Min": -1,
+  "Max": 1,
+  "Smart": 0,
+  "Material no": 927818,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4346-A-0005-000-E1(-1..+5bar)",
+  "Unit": "BAR",
+  "Min": -1,
+  "Max": 5,
+  "Smart": 0,
+  "Material no": 926941,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4346-A-0005-000-F1(-1..5bar)",
+  "Unit": "BAR",
+  "Min": -1,
+  "Max": 5,
+  "Smart": 0,
+  "Material no": 908955,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4346-A-0005-S00-F1(-1...5bar)",
+  "Unit": "BAR",
+  "Min": -1,
+  "Max": 5,
+  "Smart": 0,
+  "Material no": 927420,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4346-A-0006-ENA-000-F1",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 6,
+  "Smart": 0,
+  "Material no": 927570,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4346-A-0009-000-E1(-1..+9bar)",
+  "Unit": "BAR",
+  "Min": -1,
+  "Max": 9,
+  "Smart": 0,
+  "Material no": 909367,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4346-A-0009-000-F1(-1..+9bar)",
+  "Unit": "BAR",
+  "Min": -1,
+  "Max": 9,
+  "Smart": 0,
+  "Material no": 908957,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4346-A-0010-000-E1",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 10,
+  "Smart": 0,
+  "Material no": 924755,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4346-A-0010-000-F1",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 10,
+  "Smart": 0,
+  "Material no": 908462,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4346-A-0010-AH1-000-F1",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 10,
+  "Smart": 0,
+  "Material no": 921776,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4346-A-0010-AN1-000-E1",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 10,
+  "Smart": 0,
+  "Material no": 924747,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4346-A-0010-AN1-000-F1",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 10,
+  "Smart": 0,
+  "Material no": 920685,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4346-A-0010-AN9-000-F1",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 10,
+  "Smart": 0,
+  "Material no": 923720,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4346-A-0010-EN1-000-E1",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 10,
+  "Smart": 0,
+  "Material no": 928518,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4346-A-0010-EN1-000-E1 + PP",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 10,
+  "Smart": 0,
+  "Material no": 928519,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4346-A-0010-IN1-000-F1",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 10,
+  "Smart": 0,
+  "Material no": 926641,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4346-A-0010-S00-F1",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 10,
+  "Smart": 0,
+  "Material no": 920743,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4346-A-0016-000-E1",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 16,
+  "Smart": 0,
+  "Material no": 908431,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4346-A-0016-AN1-000-F1",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 16,
+  "Smart": 0,
+  "Material no": 920819,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4346-A-0016-S00-F1",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 16,
+  "Smart": 0,
+  "Material no": 923686,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4346-A-0016-S02-F1",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 16,
+  "Smart": 0,
+  "Material no": 926010,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4346-A-0025-000-F1",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 25,
+  "Smart": 0,
+  "Material no": 908450,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4346-A-0025-031-F1(-1..+25bar)",
+  "Unit": "BAR",
+  "Min": -1,
+  "Max": 25,
+  "Smart": 0,
+  "Material no": 922354,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4346-A-0025-AN1-000-F1",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 25,
+  "Smart": 0,
+  "Material no": 924296,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4346-A-0025-IN1-000-F1",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 25,
+  "Smart": 0,
+  "Material no": 928531,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4346-A-0025-IN9-000-E1",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 25,
+  "Smart": 0,
+  "Material no": 924690,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4346-A-0040-000-F1",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 40,
+  "Smart": 0,
+  "Material no": 908958,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4346-A-0040-000-F1 + PP",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 40,
+  "Smart": 0,
+  "Material no": 928647,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4346-A-0040-EN1-000-E1",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 40,
+  "Smart": 0,
+  "Material no": 928516,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4346-A-0040-EN1-000-E1 + PP",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 40,
+  "Smart": 0,
+  "Material no": 928517,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4346-A-0040-IN1-000-F1",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 40,
+  "Smart": 0,
+  "Material no": 926474,
+  "Note": ""
+},
+{
+  "Type": 3,
+  "Name": "HDA 4346-B-0001-000-F1(-1..1bar)",
+  "Unit": "BAR",
+  "Min": -1,
+  "Max": 1,
+  "Smart": 0,
+  "Material no": 908959,
+  "Note": "Attention: Adapter required, pin 3 and 4 needs to be switched around. \n"
+},
+{
+  "Type": 3,
+  "Name": "HDA 4346-B-0005-000-F1(-1..5bar)",
+  "Unit": "BAR",
+  "Min": -1,
+  "Max": 5,
+  "Smart": 0,
+  "Material no": 908963,
+  "Note": "Attention: Adapter required, pin 3 and 4 needs to be switched around. \n"
+},
+{
+  "Type": 3,
+  "Name": "HDA 4346-B-0009-000-F1(-1..9bar)",
+  "Unit": "BAR",
+  "Min": -1,
+  "Max": 9,
+  "Smart": 0,
+  "Material no": 908965,
+  "Note": "Attention: Adapter required, pin 3 and 4 needs to be switched around. \n"
+},
+{
+  "Type": 3,
+  "Name": "HDA 4346-B-0010-000-F1",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 10,
+  "Smart": 0,
+  "Material no": 908966,
+  "Note": "Attention: Adapter required, pin 3 and 4 needs to be switched around. \n"
+},
+{
+  "Type": 3,
+  "Name": "HDA 4346-B-0016-000-F1",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 16,
+  "Smart": 0,
+  "Material no": 908967,
+  "Note": "Attention: Adapter required, pin 3 and 4 needs to be switched around. \n"
+},
+{
+  "Type": 3,
+  "Name": "HDA 4346-B-0040-000-F1",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 40,
+  "Smart": 0,
+  "Material no": 908969,
+  "Note": "Attention: Adapter required, pin 3 and 4 needs to be switched around. \n"
+},
+{
+  "Type": 1,
+  "Name": "HDA 4376-A-0030-000-F1(psi)",
+  "Unit": "PSI",
+  "Min": 0,
+  "Max": 30,
+  "Smart": 0,
+  "Material no": 924515,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4386-A-0004-CNB-000-F1(-1..+4psi)",
+  "Unit": "PSI",
+  "Min": -1,
+  "Max": 4,
+  "Smart": 0,
+  "Material no": 925088,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4386-A-0015-000-F1(psi)",
+  "Unit": "PSI",
+  "Min": 0,
+  "Max": 15,
+  "Smart": 0,
+  "Material no": 908857,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4386-A-0015-CNB-000-F1(-15..+15psi)",
+  "Unit": "PSI",
+  "Min": -15,
+  "Max": 15,
+  "Smart": 0,
+  "Material no": 927400,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4386-A-0015-CNB-000-F1(psi)",
+  "Unit": "PSI",
+  "Min": 0,
+  "Max": 15,
+  "Smart": 0,
+  "Material no": 927412,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4386-A-0015-EN1-000-E1(psi)",
+  "Unit": "PSI",
+  "Min": 0,
+  "Max": 15,
+  "Smart": 0,
+  "Material no": 927831,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4386-A-0030-000-E1(psi)",
+  "Unit": "PSI",
+  "Min": 0,
+  "Max": 30,
+  "Smart": 0,
+  "Material no": 920353,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4386-A-0030-000-F1(psi)",
+  "Unit": "PSI",
+  "Min": 0,
+  "Max": 30,
+  "Smart": 0,
+  "Material no": 909113,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4386-A-0050-000-F1(psi)",
+  "Unit": "PSI",
+  "Min": 0,
+  "Max": 50,
+  "Smart": 0,
+  "Material no": 909846,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4386-A-0100-000-E1(psi)",
+  "Unit": "PSI",
+  "Min": 0,
+  "Max": 100,
+  "Smart": 0,
+  "Material no": 926685,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4386-A-0100-000-F1(psi)",
+  "Unit": "PSI",
+  "Min": 0,
+  "Max": 100,
+  "Smart": 0,
+  "Material no": 921957,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4386-A-0150-000-E1(psi)",
+  "Unit": "PSI",
+  "Min": 0,
+  "Max": 150,
+  "Smart": 0,
+  "Material no": 925772,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4386-A-0150-000-F1(psi)",
+  "Unit": "PSI",
+  "Min": 0,
+  "Max": 150,
+  "Smart": 0,
+  "Material no": 909292,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4386-A-0200-000-F1(psi)",
+  "Unit": "PSI",
+  "Min": 0,
+  "Max": 200,
+  "Smart": 0,
+  "Material no": 909928,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4386-A-0250-000-E1(psi)",
+  "Unit": "PSI",
+  "Min": 0,
+  "Max": 250,
+  "Smart": 0,
+  "Material no": 921990,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4386-A-0250-000-F1(psi)",
+  "Unit": "PSI",
+  "Min": 0,
+  "Max": 250,
+  "Smart": 0,
+  "Material no": 909273,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4386-A-0250-EN1-000-E1(psi)",
+  "Unit": "PSI",
+  "Min": 0,
+  "Max": 250,
+  "Smart": 0,
+  "Material no": 927832,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4386-A-0500-000-E1(psi)",
+  "Unit": "PSI",
+  "Min": 0,
+  "Max": 500,
+  "Smart": 0,
+  "Material no": 920331,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4386-A-0500-000-F1(psi)",
+  "Unit": "PSI",
+  "Min": 0,
+  "Max": 500,
+  "Smart": 0,
+  "Material no": 909512,
+  "Note": ""
+},
+{
+  "Type": 3,
+  "Name": "HDA 4386-B-0015-000-F1(psi)",
+  "Unit": "PSI",
+  "Min": 0,
+  "Max": 15,
+  "Smart": 0,
+  "Material no": 920401,
+  "Note": "Attention: Adapter required, pin 3 and 4 needs to be switched around. \n"
+},
+{
+  "Type": 3,
+  "Name": "HDA 4386-B-0030-000-F1(psi)",
+  "Unit": "PSI",
+  "Min": 0,
+  "Max": 30,
+  "Smart": 0,
+  "Material no": 908897,
+  "Note": "Attention: Adapter required, pin 3 and 4 needs to be switched around. \n"
+},
+{
+  "Type": 3,
+  "Name": "HDA 4386-B-0050-000-F1(psi)",
+  "Unit": "PSI",
+  "Min": 0,
+  "Max": 50,
+  "Smart": 0,
+  "Material no": 924004,
+  "Note": "Attention: Adapter required, pin 3 and 4 needs to be switched around. \n"
+},
+{
+  "Type": 3,
+  "Name": "HDA 4386-B-0100-000-E1(psi)",
+  "Unit": "PSI",
+  "Min": 0,
+  "Max": 100,
+  "Smart": 0,
+  "Material no": 922208,
+  "Note": "Attention: Adapter required, pin 3 and 4 needs to be switched around. \n"
+},
+{
+  "Type": 3,
+  "Name": "HDA 4386-B-0100-000-F1(psi)",
+  "Unit": "PSI",
+  "Min": 0,
+  "Max": 100,
+  "Smart": 0,
+  "Material no": 923311,
+  "Note": "Attention: Adapter required, pin 3 and 4 needs to be switched around. \n"
+},
+{
+  "Type": 3,
+  "Name": "HDA 4386-B-0150-000-F1(psi)",
+  "Unit": "PSI",
+  "Min": 0,
+  "Max": 150,
+  "Smart": 0,
+  "Material no": 909294,
+  "Note": "Attention: Adapter required, pin 3 and 4 needs to be switched around. \n"
+},
+{
+  "Type": 3,
+  "Name": "HDA 4386-B-0250-000-E1(psi)",
+  "Unit": "PSI",
+  "Min": 0,
+  "Max": 250,
+  "Smart": 0,
+  "Material no": 922207,
+  "Note": "Attention: Adapter required, pin 3 and 4 needs to be switched around. \n"
+},
+{
+  "Type": 3,
+  "Name": "HDA 4386-B-0250-000-F1(psi)",
+  "Unit": "PSI",
+  "Min": 0,
+  "Max": 250,
+  "Smart": 0,
+  "Material no": 909114,
+  "Note": "Attention: Adapter required, pin 3 and 4 needs to be switched around. \n"
+},
+{
+  "Type": 3,
+  "Name": "HDA 4386-B-0500-000-E1(psi)",
+  "Unit": "PSI",
+  "Min": 0,
+  "Max": 500,
+  "Smart": 0,
+  "Material no": 923701,
+  "Note": "Attention: Adapter required, pin 3 and 4 needs to be switched around. \n"
+},
+{
+  "Type": 3,
+  "Name": "HDA 4386-B-0500-000-F1(psi)",
+  "Unit": "PSI",
+  "Min": 0,
+  "Max": 500,
+  "Smart": 0,
+  "Material no": 922749,
+  "Note": "Attention: Adapter required, pin 3 and 4 needs to be switched around. \n"
+},
+{
+  "Type": 1,
+  "Name": "HDA 43Z6-A-0001-G01-000(-1..+1bar)",
+  "Unit": "BAR",
+  "Min": -1,
+  "Max": 1,
+  "Smart": 0,
+  "Material no": 924599,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 43Z6-A-0001-G02-000(-1..+1bar)",
+  "Unit": "BAR",
+  "Min": -1,
+  "Max": 1,
+  "Smart": 0,
+  "Material no": 922596,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 43Z6-A-0004-G02-000(-1..+3bar)",
+  "Unit": "BAR",
+  "Min": -1,
+  "Max": 4,
+  "Smart": 0,
+  "Material no": 922730,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 43Z6-A-0016-G12-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 16,
+  "Smart": 0,
+  "Material no": 923231,
+  "Note": ""
+},
+{
+  "Type": 3,
+  "Name": "HDA 43Z6-B-0016-G01-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 16,
+  "Smart": 0,
+  "Material no": 923251,
+  "Note": "Attention: Adapter required, pin 3 and 4 needs to be switched around. \n"
+},
+{
+  "Type": 1,
+  "Name": "HDA 4416-A-0010-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 10,
+  "Smart": 0,
+  "Material no": 929109,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4416-A-1600-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 1600,
+  "Smart": 0,
+  "Material no": 929151,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4416-A-2000-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 2000,
+  "Smart": 0,
+  "Material no": 928436,
+  "Note": ""
+},
+{
+  "Type": 3,
+  "Name": "HDA 4436-B-016-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 16,
+  "Smart": 0,
+  "Material no": 922930,
+  "Note": "Attention: Adapter required, pin 3 and 4 needs to be switched around. \n"
+},
+{
+  "Type": 1,
+  "Name": "HDA 4446-A-0400-AN9-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 400,
+  "Smart": 0,
+  "Material no": 923882,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4446-A-0400-S00",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 400,
+  "Smart": 0,
+  "Material no": 920593,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4446-A-060-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 60,
+  "Smart": 0,
+  "Material no": 920437,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4446-A-100-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 100,
+  "Smart": 0,
+  "Material no": 907989,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4446-A-160-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 160,
+  "Smart": 0,
+  "Material no": 920643,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4446-A-250-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 250,
+  "Smart": 0,
+  "Material no": 909135,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4446-A-250-031(200bar)",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 250,
+  "Smart": 0,
+  "Material no": 907891,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4446-A-400-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 400,
+  "Smart": 0,
+  "Material no": 908753,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4446-A-600-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 600,
+  "Smart": 0,
+  "Material no": 920099,
+  "Note": ""
+},
+{
+  "Type": 3,
+  "Name": "HDA 4446-B-016-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 16,
+  "Smart": 0,
+  "Material no": 909197,
+  "Note": "Attention: Adapter required, pin 3 and 4 needs to be switched around. \n"
+},
+{
+  "Type": 3,
+  "Name": "HDA 4446-B-060-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 60,
+  "Smart": 0,
+  "Material no": 921756,
+  "Note": "Attention: Adapter required, pin 3 and 4 needs to be switched around. \n"
+},
+{
+  "Type": 3,
+  "Name": "HDA 4446-B-100-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 100,
+  "Smart": 0,
+  "Material no": 909045,
+  "Note": "Attention: Adapter required, pin 3 and 4 needs to be switched around. \n"
+},
+{
+  "Type": 3,
+  "Name": "HDA 4446-B-250-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 250,
+  "Smart": 0,
+  "Material no": 909199,
+  "Note": "Attention: Adapter required, pin 3 and 4 needs to be switched around. \n"
+},
+{
+  "Type": 3,
+  "Name": "HDA 4446-B-400-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 400,
+  "Smart": 0,
+  "Material no": 909431,
+  "Note": "Attention: Adapter required, pin 3 and 4 needs to be switched around. \n"
+},
+{
+  "Type": 3,
+  "Name": "HDA 4446-B-400-031(315bar)",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 400,
+  "Smart": 0,
+  "Material no": 909198,
+  "Note": "Attention: Adapter required, pin 3 and 4 needs to be switched around. \n"
+},
+{
+  "Type": 3,
+  "Name": "HDA 4446-B-600-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 600,
+  "Smart": 0,
+  "Material no": 909432,
+  "Note": "Attention: Adapter required, pin 3 and 4 needs to be switched around. \n"
+},
+{
+  "Type": 3,
+  "Name": "HDA 4446-B-600-031(700bar)",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 600,
+  "Smart": 0,
+  "Material no": 924711,
+  "Note": "Attention: Adapter required, pin 3 and 4 needs to be switched around. \n"
+},
+{
+  "Type": 1,
+  "Name": "HDA 4476-A-0150-000(PSI)",
+  "Unit": "PSI",
+  "Min": 0,
+  "Max": 150,
+  "Smart": 0,
+  "Material no": 924532,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4476-A-0250-000(PSI)",
+  "Unit": "PSI",
+  "Min": 0,
+  "Max": 250,
+  "Smart": 0,
+  "Material no": 924534,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4476-A-0500-000(PSI)",
+  "Unit": "PSI",
+  "Min": 0,
+  "Max": 500,
+  "Smart": 0,
+  "Material no": 922454,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4476-A-0500-S00(psi)",
+  "Unit": "PSI",
+  "Min": 0,
+  "Max": 500,
+  "Smart": 0,
+  "Material no": 923291,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4476-A-0750-000(psi)",
+  "Unit": "PSI",
+  "Min": 0,
+  "Max": 750,
+  "Smart": 0,
+  "Material no": 920056,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4476-A-1000-000(psi)",
+  "Unit": "PSI",
+  "Min": 0,
+  "Max": 1000,
+  "Smart": 0,
+  "Material no": 922403,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4476-A-1500-000(psi)",
+  "Unit": "PSI",
+  "Min": 0,
+  "Max": 1500,
+  "Smart": 0,
+  "Material no": 921029,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4476-A-3000-000(psi)",
+  "Unit": "PSI",
+  "Min": 0,
+  "Max": 3000,
+  "Smart": 0,
+  "Material no": 909118,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4476-A-3000-AN1-000(psi)",
+  "Unit": "PSI",
+  "Min": 0,
+  "Max": 3000,
+  "Smart": 0,
+  "Material no": 923988,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4476-A-5000-000(psi)",
+  "Unit": "PSI",
+  "Min": 0,
+  "Max": 5000,
+  "Smart": 0,
+  "Material no": 909632,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4476-A-6000-000(psi)",
+  "Unit": "PSI",
+  "Min": 0,
+  "Max": 6000,
+  "Smart": 0,
+  "Material no": 909117,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4476-A-6000-S00(psi)",
+  "Unit": "PSI",
+  "Min": 0,
+  "Max": 6000,
+  "Smart": 0,
+  "Material no": 923290,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4476-A-9000-000(psi)",
+  "Unit": "PSI",
+  "Min": 0,
+  "Max": 9000,
+  "Smart": 0,
+  "Material no": 923581,
+  "Note": ""
+},
+{
+  "Type": 3,
+  "Name": "HDA 4476-B-0150-000(psi)",
+  "Unit": "PSI",
+  "Min": 0,
+  "Max": 150,
+  "Smart": 0,
+  "Material no": 922993,
+  "Note": "Attention: Adapter required, pin 3 and 4 needs to be switched around. \n"
+},
+{
+  "Type": 3,
+  "Name": "HDA 4476-B-0500-000(psi)",
+  "Unit": "PSI",
+  "Min": 0,
+  "Max": 500,
+  "Smart": 0,
+  "Material no": 922225,
+  "Note": "Attention: Adapter required, pin 3 and 4 needs to be switched around. \n"
+},
+{
+  "Type": 3,
+  "Name": "HDA 4476-B-0750-000(psi)",
+  "Unit": "PSI",
+  "Min": 0,
+  "Max": 750,
+  "Smart": 0,
+  "Material no": 922224,
+  "Note": "Attention: Adapter required, pin 3 and 4 needs to be switched around. \n"
+},
+{
+  "Type": 3,
+  "Name": "HDA 4476-B-1000-000(psi)",
+  "Unit": "PSI",
+  "Min": 0,
+  "Max": 1000,
+  "Smart": 0,
+  "Material no": 923349,
+  "Note": "Attention: Adapter required, pin 3 and 4 needs to be switched around. \n"
+},
+{
+  "Type": 3,
+  "Name": "HDA 4476-B-1500-000(psi)",
+  "Unit": "PSI",
+  "Min": 0,
+  "Max": 1500,
+  "Smart": 0,
+  "Material no": 922226,
+  "Note": "Attention: Adapter required, pin 3 and 4 needs to be switched around. \n"
+},
+{
+  "Type": 3,
+  "Name": "HDA 4476-B-3000-000(PSI)",
+  "Unit": "PSI",
+  "Min": 0,
+  "Max": 3000,
+  "Smart": 0,
+  "Material no": 908336,
+  "Note": "Attention: Adapter required, pin 3 and 4 needs to be switched around. \n"
+},
+{
+  "Type": 3,
+  "Name": "HDA 4476-B-5000-000(psi)",
+  "Unit": "PSI",
+  "Min": 0,
+  "Max": 5000,
+  "Smart": 0,
+  "Material no": 909992,
+  "Note": "Attention: Adapter required, pin 3 and 4 needs to be switched around. \n"
+},
+{
+  "Type": 3,
+  "Name": "HDA 4476-B-6000-000(psi)",
+  "Unit": "PSI",
+  "Min": 0,
+  "Max": 6000,
+  "Smart": 0,
+  "Material no": 920556,
+  "Note": "Attention: Adapter required, pin 3 and 4 needs to be switched around. \n"
+},
+{
+  "Type": 3,
+  "Name": "HDA 4476-B-9000-000(psi)",
+  "Unit": "PSI",
+  "Min": 0,
+  "Max": 9000,
+  "Smart": 0,
+  "Material no": 920005,
+  "Note": "Attention: Adapter required, pin 3 and 4 needs to be switched around. \n"
+},
+{
+  "Type": 1,
+  "Name": "HDA 44C6-A-0016-CNB-H00",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 16,
+  "Smart": 0,
+  "Material no": 928931,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 44C6-A-0016-EN9-H00",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 16,
+  "Smart": 0,
+  "Material no": 927781,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 44C6-A-0040-EN9-H00",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 40,
+  "Smart": 0,
+  "Material no": 928249,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 44C6-A-0060-EN9-H00",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 60,
+  "Smart": 0,
+  "Material no": 928877,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 44C6-A-0200-EN1-H00",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 200,
+  "Smart": 0,
+  "Material no": 926739,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 44C6-A-0400-EN1-H00",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 400,
+  "Smart": 0,
+  "Material no": 926740,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 44C6-A-0600-CNB-H00",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 600,
+  "Smart": 0,
+  "Material no": 927716,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 44C6-A-0600-EN1-H00",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 600,
+  "Smart": 0,
+  "Material no": 926966,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 44C6-A-0600-EN9-H00",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 600,
+  "Smart": 0,
+  "Material no": 927780,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 44C6-A-1050-EN1-H00",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 1050,
+  "Smart": 0,
+  "Material no": 926741,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 44C6-A-1050-EN9-H00",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 1050,
+  "Smart": 0,
+  "Material no": 927257,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 44C6-A-1050-ENC-H00",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 1050,
+  "Smart": 0,
+  "Material no": 927490,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 44G6-A-0016-EN9-H00",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 16,
+  "Smart": 0,
+  "Material no": 927259,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 44G6-A-0025-EN1-H00",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 25,
+  "Smart": 0,
+  "Material no": 928408,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 44G6-A-0040-EN1-H00",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 40,
+  "Smart": 0,
+  "Material no": 926808,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 44G6-A-0100-EN1-H00",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 100,
+  "Smart": 0,
+  "Material no": 929162,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 44G6-A-0100-ENC-H00",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 100,
+  "Smart": 0,
+  "Material no": 928999,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 44G6-A-0200-EN9-H00",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 200,
+  "Smart": 0,
+  "Material no": 928388,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 44G6-A-0250-EN1-H00",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 250,
+  "Smart": 0,
+  "Material no": 926747,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 44G6-A-0250-EN9-H00",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 250,
+  "Smart": 0,
+  "Material no": 927933,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 44G6-A-0400-EN1-H00",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 400,
+  "Smart": 0,
+  "Material no": 927927,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 44G6-A-0400-EN9-H00",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 400,
+  "Smart": 0,
+  "Material no": 928389,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 44G6-A-0600-EN1-H00",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 600,
+  "Smart": 0,
+  "Material no": 926809,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 44G6-A-1050-EN1-H00",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 1050,
+  "Smart": 0,
+  "Material no": 926746,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 44H6-A-0400-EN1-H00",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 400,
+  "Smart": 0,
+  "Material no": 926926,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 44Z6-A-0009-G01-000(-1..+9bar)",
+  "Unit": "BAR",
+  "Min": -1,
+  "Max": 9,
+  "Smart": 0,
+  "Material no": 928555,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 44Z6-A-0010-G01-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 10,
+  "Smart": 0,
+  "Material no": 928617,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 44Z6-A-0010-G12-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 10,
+  "Smart": 0,
+  "Material no": 928334,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 44Z6-A-0016-G01-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 16,
+  "Smart": 0,
+  "Material no": 927773,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 44Z6-A-0016-G12-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 16,
+  "Smart": 0,
+  "Material no": 928335,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 44Z6-A-0016-G12-031(-1..+15bar)",
+  "Unit": "BAR",
+  "Min": -1,
+  "Max": 16,
+  "Smart": 0,
+  "Material no": 928581,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 44Z6-A-0025-G01-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 25,
+  "Smart": 0,
+  "Material no": 927861,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 44Z6-A-0025-G01-AN1-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 25,
+  "Smart": 0,
+  "Material no": 927251,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 44Z6-A-0025-G04-031(-1..25bar)",
+  "Unit": "BAR",
+  "Min": -1,
+  "Max": 25,
+  "Smart": 0,
+  "Material no": 926819,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 44Z6-A-0025-G04-EN1-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 25,
+  "Smart": 0,
+  "Material no": 927301,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 44Z6-A-0025-G12-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 25,
+  "Smart": 0,
+  "Material no": 922949,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 44Z6-A-0040-G01-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 40,
+  "Smart": 0,
+  "Material no": 922289,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 44Z6-A-0040-G12-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 40,
+  "Smart": 0,
+  "Material no": 926623,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 44Z6-A-0040-G12-031(-1...+39bar)",
+  "Unit": "BAR",
+  "Min": -1,
+  "Max": 40,
+  "Smart": 0,
+  "Material no": 924952,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 44Z6-A-0060-G01-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 60,
+  "Smart": 0,
+  "Material no": 922288,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 44Z6-A-0060-G02-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 60,
+  "Smart": 0,
+  "Material no": 927447,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 44Z6-A-0060-G12-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 60,
+  "Smart": 0,
+  "Material no": 924738,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 44Z6-A-0100-G01-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 100,
+  "Smart": 0,
+  "Material no": 922532,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 44Z6-A-0100-G05-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 100,
+  "Smart": 0,
+  "Material no": 928950,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 44Z6-A-0250-G01-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 250,
+  "Smart": 0,
+  "Material no": 923343,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 44Z6-A-0250-G01-031(160bar)",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 250,
+  "Smart": 0,
+  "Material no": 922533,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 44Z6-A-0250-G01-EN1-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 250,
+  "Smart": 0,
+  "Material no": 928936,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 44Z6-A-0250-G02-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 250,
+  "Smart": 0,
+  "Material no": 923693,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 44Z6-A-0250-G04-ENC-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 250,
+  "Smart": 0,
+  "Material no": 927683,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 44Z6-A-0250-G12-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 250,
+  "Smart": 0,
+  "Material no": 926046,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 44Z6-A-0300-G01-000(psi)",
+  "Unit": "PSI",
+  "Min": 0,
+  "Max": 300,
+  "Smart": 0,
+  "Material no": 928557,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 44Z6-A-0400-G01-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 400,
+  "Smart": 0,
+  "Material no": 923715,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 44Z6-A-0400-G04-EN1-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 400,
+  "Smart": 0,
+  "Material no": 928288,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 44Z6-A-0400-G12-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 400,
+  "Smart": 0,
+  "Material no": 922342,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 44Z6-A-0500-G01-000(psi)",
+  "Unit": "PSI",
+  "Min": 0,
+  "Max": 500,
+  "Smart": 0,
+  "Material no": 923285,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 44Z6-A-0600-G01-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 600,
+  "Smart": 0,
+  "Material no": 924410,
+  "Note": ""
+},
+{
+  "Type": 3,
+  "Name": "HDA 44Z6-B-0010-G01-031(-1..9bar)",
+  "Unit": "BAR",
+  "Min": -1,
+  "Max": 10,
+  "Smart": 0,
+  "Material no": 928453,
+  "Note": "Attention: Adapter required, pin 3 and 4 needs to be switched around. \n"
+},
+{
+  "Type": 3,
+  "Name": "HDA 44Z6-B-0025-G01-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 25,
+  "Smart": 0,
+  "Material no": 928615,
+  "Note": "Attention: Adapter required, pin 3 and 4 needs to be switched around. \n"
+},
+{
+  "Type": 3,
+  "Name": "HDA 44Z6-B-0040-G01-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 40,
+  "Smart": 0,
+  "Material no": 925271,
+  "Note": "Attention: Adapter required, pin 3 and 4 needs to be switched around. \n"
+},
+{
+  "Type": 1,
+  "Name": "HDA 44Z6-A-0300-G02-000(psi)",
+  "Unit": "PSI",
+  "Min": 0,
+  "Max": 300,
+  "Smart": 0,
+  "Material no": 927840,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4716-A-1600-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 1600,
+  "Smart": 0,
+  "Material no": 924411,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4716-A-2000-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 2000,
+  "Smart": 0,
+  "Material no": 927213,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4726-A-0016-S00",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 16,
+  "Smart": 0,
+  "Material no": 928468,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4726-A-0400-S00",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 400,
+  "Smart": 0,
+  "Material no": 928469,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4726-A-1000-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 1000,
+  "Smart": 0,
+  "Material no": 924052,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4726-A-1000-EN1-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 1000,
+  "Smart": 0,
+  "Material no": 925539,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4746-A-0006-IN1-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 6,
+  "Smart": 0,
+  "Material no": 923221,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4746-A-0006-S00",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 6,
+  "Smart": 0,
+  "Material no": 924294,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4746-A-0009-AH1-000(-1..9bar)",
+  "Unit": "BAR",
+  "Min": -1,
+  "Max": 9,
+  "Smart": 0,
+  "Material no": 921318,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4746-A-0010-EN1-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 10,
+  "Smart": 0,
+  "Material no": 925099,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4746-A-0016-AN1-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 16,
+  "Smart": 0,
+  "Material no": 921580,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4746-A-0016-IN1-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 16,
+  "Smart": 0,
+  "Material no": 925078,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4746-A-0016-IN9-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 16,
+  "Smart": 0,
+  "Material no": 924691,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4746-A-0016-S00",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 16,
+  "Smart": 0,
+  "Material no": 922947,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4746-A-0025-EN9-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 25,
+  "Smart": 0,
+  "Material no": 927606,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4746-A-006-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 6,
+  "Smart": 0,
+  "Material no": 909991,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4746-A-0060-AN1-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 60,
+  "Smart": 0,
+  "Material no": 921885,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4746-A-0060-EN9-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 60,
+  "Smart": 0,
+  "Material no": 927609,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4746-A-0100-AN1-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 100,
+  "Smart": 0,
+  "Material no": 921999,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4746-A-0100-AN9-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 100,
+  "Smart": 0,
+  "Material no": 926697,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4746-A-016-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 16,
+  "Smart": 0,
+  "Material no": 908821,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4746-A-016-031(-1...9bar)",
+  "Unit": "BAR",
+  "Min": -1,
+  "Max": 16,
+  "Smart": 0,
+  "Material no": 921757,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4746-A-0160-IN1-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 160,
+  "Smart": 0,
+  "Material no": 923238,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4746-A-025-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 25,
+  "Smart": 0,
+  "Material no": 924643,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4746-A-025-000 + PP",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 25,
+  "Smart": 0,
+  "Material no": 928607,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4746-A-0250-AH1-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 250,
+  "Smart": 0,
+  "Material no": 920820,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4746-A-0250-AN1-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 250,
+  "Smart": 0,
+  "Material no": 922001,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4746-A-0250-AN9-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 250,
+  "Smart": 0,
+  "Material no": 926696,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4746-A-0250-EN1-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 250,
+  "Smart": 0,
+  "Material no": 925100,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4746-A-0250-ENA-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 250,
+  "Smart": 0,
+  "Material no": 928030,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4746-A-0250-IN1-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 250,
+  "Smart": 0,
+  "Material no": 924688,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4746-A-0250-IN1-001",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 250,
+  "Smart": 0,
+  "Material no": 925818,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4746-A-0250-S00",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 250,
+  "Smart": 0,
+  "Material no": 922856,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4746-A-040-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 40,
+  "Smart": 0,
+  "Material no": 922392,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4746-A-0400-AH1-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 400,
+  "Smart": 0,
+  "Material no": 921258,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4746-A-0400-AN1-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 400,
+  "Smart": 0,
+  "Material no": 921886,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4746-A-0400-AN9-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 400,
+  "Smart": 0,
+  "Material no": 923880,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4746-A-0400-EN1-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 400,
+  "Smart": 0,
+  "Material no": 927914,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4746-A-0400-EN9-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 400,
+  "Smart": 0,
+  "Material no": 928675,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4746-A-0400-ENA-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 400,
+  "Smart": 0,
+  "Material no": 928883,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4746-A-0400-IN1-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 400,
+  "Smart": 0,
+  "Material no": 924444,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4746-A-0400-IN7-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 400,
+  "Smart": 0,
+  "Material no": 922624,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4746-A-0400-S00",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 400,
+  "Smart": 0,
+  "Material no": 922855,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4746-A-060-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 60,
+  "Smart": 0,
+  "Material no": 908946,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4746-A-0600-AN1-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 600,
+  "Smart": 0,
+  "Material no": 922871,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4746-A-0600-EN1-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 600,
+  "Smart": 0,
+  "Material no": 925540,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4746-A-100-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 100,
+  "Smart": 0,
+  "Material no": 908947,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4746-A-160-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 160,
+  "Smart": 0,
+  "Material no": 921701,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4746-A-250-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 250,
+  "Smart": 0,
+  "Material no": 908648,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4746-A-400-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 400,
+  "Smart": 0,
+  "Material no": 908731,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4746-A-400-031(300bar)",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 400,
+  "Smart": 0,
+  "Material no": 921660,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4746-A-400-031(350bar)",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 400,
+  "Smart": 0,
+  "Material no": 920778,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4746-A-600-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 600,
+  "Smart": 0,
+  "Material no": 907947,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4746-A-600-031(-1..600bar)",
+  "Unit": "BAR",
+  "Min": -1,
+  "Max": 600,
+  "Smart": 0,
+  "Material no": 926794,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4746-A-600-031(500bar)",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 600,
+  "Smart": 0,
+  "Material no": 908762,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4746-A-600-031(700bar)",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 600,
+  "Smart": 0,
+  "Material no": 909584,
+  "Note": ""
+},
+{
+  "Type": 3,
+  "Name": "HDA 4746-B-0016-031(-1..15bar)",
+  "Unit": "BAR",
+  "Min": -1,
+  "Max": 16,
+  "Smart": 0,
+  "Material no": 924260,
+  "Note": "Attention: Adapter required, pin 3 and 4 needs to be switched around. \n"
+},
+{
+  "Type": 3,
+  "Name": "HDA 4746-B-006-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 6,
+  "Smart": 0,
+  "Material no": 921343,
+  "Note": "Attention: Adapter required, pin 3 and 4 needs to be switched around. \n"
+},
+{
+  "Type": 3,
+  "Name": "HDA 4746-B-060-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 60,
+  "Smart": 0,
+  "Material no": 908948,
+  "Note": "Attention: Adapter required, pin 3 and 4 needs to be switched around. \n"
+},
+{
+  "Type": 3,
+  "Name": "HDA 4746-B-100-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 100,
+  "Smart": 0,
+  "Material no": 908238,
+  "Note": "Attention: Adapter required, pin 3 and 4 needs to be switched around. \n"
+},
+{
+  "Type": 3,
+  "Name": "HDA 4746-B-1000-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 1000,
+  "Smart": 0,
+  "Material no": 926391,
+  "Note": "Attention: Adapter required, pin 3 and 4 needs to be switched around. \n"
+},
+{
+  "Type": 3,
+  "Name": "HDA 4746-B-160-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 160,
+  "Smart": 0,
+  "Material no": 910012,
+  "Note": "Attention: Adapter required, pin 3 and 4 needs to be switched around. \n"
+},
+{
+  "Type": 3,
+  "Name": "HDA 4746-B-400-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 400,
+  "Smart": 0,
+  "Material no": 908119,
+  "Note": "Attention: Adapter required, pin 3 and 4 needs to be switched around. \n"
+},
+{
+  "Type": 3,
+  "Name": "HDA 4746-B-400-031(350bar)",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 400,
+  "Smart": 0,
+  "Material no": 923564,
+  "Note": "Attention: Adapter required, pin 3 and 4 needs to be switched around. \n"
+},
+{
+  "Type": 3,
+  "Name": "HDA 4746-B-600-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 600,
+  "Smart": 0,
+  "Material no": 908950,
+  "Note": "Attention: Adapter required, pin 3 and 4 needs to be switched around. \n"
+},
+{
+  "Type": 1,
+  "Name": "HDA 4776-A-0150-000(psi)",
+  "Unit": "PSI",
+  "Min": 0,
+  "Max": 150,
+  "Smart": 0,
+  "Material no": 922015,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4776-A-0150-AN1-000(psi)",
+  "Unit": "PSI",
+  "Min": 0,
+  "Max": 150,
+  "Smart": 0,
+  "Material no": 922502,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4776-A-0500-000(psi)",
+  "Unit": "PSI",
+  "Min": 0,
+  "Max": 500,
+  "Smart": 0,
+  "Material no": 922038,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4776-A-0750-EN9-000(psi)",
+  "Unit": "PSI",
+  "Min": 0,
+  "Max": 750,
+  "Smart": 0,
+  "Material no": 926970,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4776-A-1000-000(psi)",
+  "Unit": "PSI",
+  "Min": 0,
+  "Max": 1000,
+  "Smart": 0,
+  "Material no": 927487,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4776-A-1500-000(psi)",
+  "Unit": "PSI",
+  "Min": 0,
+  "Max": 1500,
+  "Smart": 0,
+  "Material no": 920344,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4776-A-3000-000(psi)",
+  "Unit": "PSI",
+  "Min": 0,
+  "Max": 3000,
+  "Smart": 0,
+  "Material no": 920196,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4776-A-3000-AN1-000(psi)",
+  "Unit": "PSI",
+  "Min": 0,
+  "Max": 3000,
+  "Smart": 0,
+  "Material no": 922523,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4776-A-5000-000(psi)",
+  "Unit": "PSI",
+  "Min": 0,
+  "Max": 5000,
+  "Smart": 0,
+  "Material no": 920485,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4776-A-5000-EN9-000(psi)",
+  "Unit": "PSI",
+  "Min": 0,
+  "Max": 5000,
+  "Smart": 0,
+  "Material no": 926969,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4776-A-6000-000(psi)",
+  "Unit": "PSI",
+  "Min": 0,
+  "Max": 6000,
+  "Smart": 0,
+  "Material no": 921174,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4776-A-6000-AN1-000(psi)",
+  "Unit": "PSI",
+  "Min": 0,
+  "Max": 6000,
+  "Smart": 0,
+  "Material no": 922524,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4776-A-9000-000(psi)",
+  "Unit": "PSI",
+  "Min": 0,
+  "Max": 9000,
+  "Smart": 0,
+  "Material no": 924051,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4776-A-9000-AN1-000(psi)",
+  "Unit": "PSI",
+  "Min": 0,
+  "Max": 9000,
+  "Smart": 0,
+  "Material no": 925012,
+  "Note": ""
+},
+{
+  "Type": 3,
+  "Name": "HDA 4776-B-0150-000(psi)",
+  "Unit": "PSI",
+  "Min": 0,
+  "Max": 150,
+  "Smart": 0,
+  "Material no": 921593,
+  "Note": "Attention: Adapter required, pin 3 and 4 needs to be switched around. \n"
+},
+{
+  "Type": 3,
+  "Name": "HDA 4776-B-0500-000(psi)",
+  "Unit": "PSI",
+  "Min": 0,
+  "Max": 500,
+  "Smart": 0,
+  "Material no": 922168,
+  "Note": "Attention: Adapter required, pin 3 and 4 needs to be switched around. \n"
+},
+{
+  "Type": 3,
+  "Name": "HDA 4776-B-0750-000(psi)",
+  "Unit": "PSI",
+  "Min": 0,
+  "Max": 750,
+  "Smart": 0,
+  "Material no": 920359,
+  "Note": "Attention: Adapter required, pin 3 and 4 needs to be switched around. \n"
+},
+{
+  "Type": 3,
+  "Name": "HDA 4776-B-1500-000(PSI)",
+  "Unit": "PSI",
+  "Min": 0,
+  "Max": 1500,
+  "Smart": 0,
+  "Material no": 922114,
+  "Note": "Attention: Adapter required, pin 3 and 4 needs to be switched around. \n"
+},
+{
+  "Type": 3,
+  "Name": "HDA 4776-B-3000-000(psi)",
+  "Unit": "PSI",
+  "Min": 0,
+  "Max": 3000,
+  "Smart": 0,
+  "Material no": 909272,
+  "Note": "Attention: Adapter required, pin 3 and 4 needs to be switched around. \n"
+},
+{
+  "Type": 3,
+  "Name": "HDA 4776-B-5000-000(psi)",
+  "Unit": "PSI",
+  "Min": 0,
+  "Max": 5000,
+  "Smart": 0,
+  "Material no": 920674,
+  "Note": "Attention: Adapter required, pin 3 and 4 needs to be switched around. \n"
+},
+{
+  "Type": 3,
+  "Name": "HDA 4776-B-6000-000(psi)",
+  "Unit": "PSI",
+  "Min": 0,
+  "Max": 6000,
+  "Smart": 0,
+  "Material no": 920360,
+  "Note": "Attention: Adapter required, pin 3 and 4 needs to be switched around. \n"
+},
+{
+  "Type": 3,
+  "Name": "HDA 4776-B-9000-000(psi)",
+  "Unit": "PSI",
+  "Min": 0,
+  "Max": 9000,
+  "Smart": 0,
+  "Material no": 920361,
+  "Note": "Attention: Adapter required, pin 3 and 4 needs to be switched around. \n"
+},
+{
+  "Type": 1,
+  "Name": "HDA 4786-A-0150-CNB-000(psi)",
+  "Unit": "PSI",
+  "Min": 0,
+  "Max": 150,
+  "Smart": 0,
+  "Material no": 927399,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4786-A-3000-CNB-000(psi)",
+  "Unit": "PSI",
+  "Min": 0,
+  "Max": 3000,
+  "Smart": 0,
+  "Material no": 926684,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4786-A-5000-CNB-000(psi)",
+  "Unit": "PSI",
+  "Min": 0,
+  "Max": 5000,
+  "Smart": 0,
+  "Material no": 927454,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 47C6-A-0400-AN1-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 400,
+  "Smart": 0,
+  "Material no": 922693,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 47C6-A-0600-AN1-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 600,
+  "Smart": 0,
+  "Material no": 922384,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 47C6-A-1000-AN1-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 1000,
+  "Smart": 0,
+  "Material no": 922386,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 47C6-A-1600-EN9-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 1600,
+  "Smart": 0,
+  "Material no": 929158,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 47F6-A-0200-CNB-000(psi)",
+  "Unit": "PSI",
+  "Min": 0,
+  "Max": 200,
+  "Smart": 0,
+  "Material no": 926878,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 47F6-A-0500-CNB-000(psi)",
+  "Unit": "PSI",
+  "Min": 0,
+  "Max": 500,
+  "Smart": 0,
+  "Material no": 926875,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 47F6-A-1000-CNB-000(psi)",
+  "Unit": "PSI",
+  "Min": 0,
+  "Max": 1000,
+  "Smart": 0,
+  "Material no": 926879,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 47F6-A-2000-CNB-000(psi)",
+  "Unit": "PSI",
+  "Min": 0,
+  "Max": 2000,
+  "Smart": 0,
+  "Material no": 926880,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 47F6-A-6000-188(psi)",
+  "Unit": "PSI",
+  "Min": 0,
+  "Max": 6000,
+  "Smart": 0,
+  "Material no": 926568,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 47Z6-A-0040-G02-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 40,
+  "Smart": 0,
+  "Material no": 922605,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 47Z6-A-0040-G04-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 40,
+  "Smart": 0,
+  "Material no": 922396,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 47Z6-A-0040-G12-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 40,
+  "Smart": 0,
+  "Material no": 924130,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 47Z6-A-0100-G01-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 100,
+  "Smart": 0,
+  "Material no": 923651,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 47Z6-A-0100-G02-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 100,
+  "Smart": 0,
+  "Material no": 923777,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 47Z6-A-0250-G02-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 250,
+  "Smart": 0,
+  "Material no": 922604,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 47Z6-A-0250-G04-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 250,
+  "Smart": 0,
+  "Material no": 922397,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 47Z6-A-0400-G01-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 400,
+  "Smart": 0,
+  "Material no": 924200,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 47Z6-A-0600-G02-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 600,
+  "Smart": 0,
+  "Material no": 923235,
+  "Note": ""
+},
+{
+  "Type": 3,
+  "Name": "HDA 47Z6-B-0250-G01-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 250,
+  "Smart": 0,
+  "Material no": 923264,
+  "Note": "Attention: Adapter required, pin 3 and 4 needs to be switched around. \n"
+},
+{
+  "Type": 3,
+  "Name": "HDA 47Z6-B-0400-G01-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 400,
+  "Smart": 0,
+  "Material no": 923270,
+  "Note": "Attention: Adapter required, pin 3 and 4 needs to be switched around. \n"
+},
+{
+  "Type": 3,
+  "Name": "HDA 47Z6-B-0600-G01-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 600,
+  "Smart": 0,
+  "Material no": 924853,
+  "Note": "Attention: Adapter required, pin 3 and 4 needs to be switched around. \n"
+},
+{
+  "Type": 3,
+  "Name": "HDA 4816-B-1600-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 1600,
+  "Smart": 0,
+  "Material no": 927981,
+  "Note": "Attention: Adapter required, pin 3 and 4 needs to be switched around. \n"
+},
+{
+  "Type": 2,
+  "Name": "HDA 4846-E-250-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 250,
+  "Smart": 0,
+  "Material no": 925238,
+  "Note": "Attention: Adapter required, pin 3 and 4 needs to be switched around. \n"
+},
+{
+  "Type": 1,
+  "Name": "HDA 4876-A-1500-000(psi)",
+  "Unit": "PSI",
+  "Min": 0,
+  "Max": 1500,
+  "Smart": 0,
+  "Material no": 927038,
+  "Note": ""
+},
+{
+  "Type": 3,
+  "Name": "HDA 4746-B-250-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 250,
+  "Smart": 0,
+  "Material no": 908949,
+  "Note": "Attention: Adapter required, pin 3 and 4 needs to be switched around. \n"
+},
+{
+  "Type": 1,
+  "Name": "HDA 7446-A-040-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 40,
+  "Smart": 0,
+  "Material no": 921387,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 7446-A-060-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 60,
+  "Smart": 0,
+  "Material no": 908790,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 7446-A-1000-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 1000,
+  "Smart": 0,
+  "Material no": 924569,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 7446-A-160-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 160,
+  "Smart": 0,
+  "Material no": 921871,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 7446-A-250-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 250,
+  "Smart": 0,
+  "Material no": 908317,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 7446-A-400-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 400,
+  "Smart": 0,
+  "Material no": 907920,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 7446-A-600-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 600,
+  "Smart": 0,
+  "Material no": 908250,
+  "Note": ""
+},
+{
+  "Type": 3,
+  "Name": "HDA 7446-B-040-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 40,
+  "Smart": 0,
+  "Material no": 921209,
+  "Note": "Attention: Adapter required, pin 3 and 4 needs to be switched around. \n"
+},
+{
+  "Type": 3,
+  "Name": "HDA 7446-B-060-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 60,
+  "Smart": 0,
+  "Material no": 908114,
+  "Note": "Attention: Adapter required, pin 3 and 4 needs to be switched around. \n"
+},
+{
+  "Type": 3,
+  "Name": "HDA 7446-B-100-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 100,
+  "Smart": 0,
+  "Material no": 908105,
+  "Note": "Attention: Adapter required, pin 3 and 4 needs to be switched around. \n"
+},
+{
+  "Type": 3,
+  "Name": "HDA 7446-B-250-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 250,
+  "Smart": 0,
+  "Material no": 908115,
+  "Note": "Attention: Adapter required, pin 3 and 4 needs to be switched around. \n"
+},
+{
+  "Type": 3,
+  "Name": "HDA 7446-B-250-031(210bar)",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 250,
+  "Smart": 0,
+  "Material no": 924112,
+  "Note": "Attention: Adapter required, pin 3 and 4 needs to be switched around. \n"
+},
+{
+  "Type": 3,
+  "Name": "HDA 7446-B-400-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 400,
+  "Smart": 0,
+  "Material no": 907930,
+  "Note": "Attention: Adapter required, pin 3 and 4 needs to be switched around. \n"
+},
+{
+  "Type": 3,
+  "Name": "HDA 7446-B-600-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 600,
+  "Smart": 0,
+  "Material no": 908116,
+  "Note": "Attention: Adapter required, pin 3 and 4 needs to be switched around. \n"
+},
+{
+  "Type": 3,
+  "Name": "HDA 7446-B-600-031(700bar)",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 600,
+  "Smart": 0,
+  "Material no": 924793,
+  "Note": "Attention: Adapter required, pin 3 and 4 needs to be switched around. \n"
+},
+{
+  "Type": 1,
+  "Name": "HDA 7476-A-0300-000(psi)",
+  "Unit": "PSI",
+  "Min": 0,
+  "Max": 300,
+  "Smart": 0,
+  "Material no": 921021,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 7476-A-0500-000(psi)",
+  "Unit": "PSI",
+  "Min": 0,
+  "Max": 500,
+  "Smart": 0,
+  "Material no": 925588,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 7476-A-1000-000(psi)",
+  "Unit": "PSI",
+  "Min": 0,
+  "Max": 1000,
+  "Smart": 0,
+  "Material no": 920030,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 7476-A-3000-000(psi)",
+  "Unit": "PSI",
+  "Min": 0,
+  "Max": 3000,
+  "Smart": 0,
+  "Material no": 920076,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 7476-A-5000-000(psi)",
+  "Unit": "PSI",
+  "Min": 0,
+  "Max": 5000,
+  "Smart": 0,
+  "Material no": 922927,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 7476-A-6000-000(psi)",
+  "Unit": "PSI",
+  "Min": 0,
+  "Max": 6000,
+  "Smart": 0,
+  "Material no": 920465,
+  "Note": ""
+},
+{
+  "Type": 3,
+  "Name": "HDA 7476-B-1500-000(psi)",
+  "Unit": "PSI",
+  "Min": 0,
+  "Max": 1500,
+  "Smart": 0,
+  "Material no": 922957,
+  "Note": "Attention: Adapter required, pin 3 and 4 needs to be switched around. \n"
+},
+{
+  "Type": 3,
+  "Name": "HDA 7476-B-3000-000(psi)",
+  "Unit": "PSI",
+  "Min": 0,
+  "Max": 3000,
+  "Smart": 0,
+  "Material no": 921218,
+  "Note": "Attention: Adapter required, pin 3 and 4 needs to be switched around. \n"
+},
+{
+  "Type": 3,
+  "Name": "HDA 7476-B-5000-000(psi)",
+  "Unit": "PSI",
+  "Min": 0,
+  "Max": 5000,
+  "Smart": 0,
+  "Material no": 908357,
+  "Note": "Attention: Adapter required, pin 3 and 4 needs to be switched around. \n"
+},
+{
+  "Type": 3,
+  "Name": "HDA 7476-B-6000-000(PSI)",
+  "Unit": "PSI",
+  "Min": 0,
+  "Max": 6000,
+  "Smart": 0,
+  "Material no": 928871,
+  "Note": "Attention: Adapter required, pin 3 and 4 needs to be switched around. \n"
+},
+{
+  "Type": 1,
+  "Name": "HDA 7486-A-7500-000(psi)",
+  "Unit": "PSI",
+  "Min": 0,
+  "Max": 7500,
+  "Smart": 0,
+  "Material no": 908658,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 74Z6-A-0016-G04-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 16,
+  "Smart": 0,
+  "Material no": 922886,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 74Z6-A-0016-G05-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 16,
+  "Smart": 0,
+  "Material no": 923050,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 74Z6-A-0025-G04-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 25,
+  "Smart": 0,
+  "Material no": 927395,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 74Z6-A-0025-G05-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 25,
+  "Smart": 0,
+  "Material no": 923735,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 74Z6-A-0040-G05-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 40,
+  "Smart": 0,
+  "Material no": 925093,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 74Z6-A-0060-G04-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 60,
+  "Smart": 0,
+  "Material no": 926084,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 74Z6-A-0060-G05-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 60,
+  "Smart": 0,
+  "Material no": 923736,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 74Z6-A-0100-G04-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 100,
+  "Smart": 0,
+  "Material no": 922731,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 74Z6-A-0100-G05-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 100,
+  "Smart": 0,
+  "Material no": 923446,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 74Z6-A-0160-G05-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 160,
+  "Smart": 0,
+  "Material no": 922887,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 74Z6-A-0250-G04-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 250,
+  "Smart": 0,
+  "Material no": 922373,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 74Z6-A-0250-G05-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 250,
+  "Smart": 0,
+  "Material no": 922706,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 74Z6-A-0400-G05-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 400,
+  "Smart": 0,
+  "Material no": 923622,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 74Z6-A-0600-G05-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 600,
+  "Smart": 0,
+  "Material no": 926719,
+  "Note": ""
+},
+{
+  "Type": 3,
+  "Name": "HDA 74Z6-B-0040-G04-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 40,
+  "Smart": 0,
+  "Material no": 924005,
+  "Note": "Attention: Adapter required, pin 3 and 4 needs to be switched around. \n"
+},
+{
+  "Type": 3,
+  "Name": "HDA 74Z6-B-0250-G04-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 250,
+  "Smart": 0,
+  "Material no": 926620,
+  "Note": "Attention: Adapter required, pin 3 and 4 needs to be switched around. \n"
+},
+{
+  "Type": 1,
+  "Name": "HDA 4826-A-0250-424",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 250,
+  "Smart": 0,
+  "Material no": 927598,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4826-A-0300-424",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 300,
+  "Smart": 0,
+  "Material no": 927602,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4826-A-0350-424",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 350,
+  "Smart": 0,
+  "Material no": 927596,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4846-A-006-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 6,
+  "Smart": 0,
+  "Material no": 922970,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4846-A-0100-424",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 100,
+  "Smart": 0,
+  "Material no": 926605,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4846-A-016-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 16,
+  "Smart": 0,
+  "Material no": 922969,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4846-A-016-424",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 16,
+  "Smart": 0,
+  "Material no": 926089,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4846-A-025-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 25,
+  "Smart": 0,
+  "Material no": 922714,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4846-A-040-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 40,
+  "Smart": 0,
+  "Material no": 927103,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4846-A-060-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 60,
+  "Smart": 0,
+  "Material no": 922879,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4846-A-100-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 100,
+  "Smart": 0,
+  "Material no": 922968,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4846-A-1000-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 1000,
+  "Smart": 0,
+  "Material no": 927390,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4846-A-150-424",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 150,
+  "Smart": 0,
+  "Material no": 926088,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4846-A-160-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 160,
+  "Smart": 0,
+  "Material no": 926644,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4846-A-250-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 250,
+  "Smart": 0,
+  "Material no": 922669,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4846-A-250-031(160bar)",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 250,
+  "Smart": 0,
+  "Material no": 925357,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4846-A-250-424",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 250,
+  "Smart": 0,
+  "Material no": 925572,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4846-A-300-424",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 300,
+  "Smart": 0,
+  "Material no": 927429,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4846-A-400-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 400,
+  "Smart": 0,
+  "Material no": 922154,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4846-A-400-031(300bar)",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 400,
+  "Smart": 0,
+  "Material no": 927350,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4846-A-600-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 600,
+  "Smart": 0,
+  "Material no": 922967,
+  "Note": ""
+},
+{
+  "Type": 3,
+  "Name": "HDA 4846-B-006-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 6,
+  "Smart": 0,
+  "Material no": 922611,
+  "Note": "Attention: Adapter required, pin 3 and 4 needs to be switched around. \n"
+},
+{
+  "Type": 3,
+  "Name": "HDA 4846-B-016-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 16,
+  "Smart": 0,
+  "Material no": 922202,
+  "Note": "Attention: Adapter required, pin 3 and 4 needs to be switched around. \n"
+},
+{
+  "Type": 3,
+  "Name": "HDA 4846-B-016-031(-1...16bar)",
+  "Unit": "BAR",
+  "Min": -1,
+  "Max": 16,
+  "Smart": 0,
+  "Material no": 923322,
+  "Note": "Attention: Adapter required, pin 3 and 4 needs to be switched around. \n"
+},
+{
+  "Type": 3,
+  "Name": "HDA 4846-B-025-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 25,
+  "Smart": 0,
+  "Material no": 923063,
+  "Note": "Attention: Adapter required, pin 3 and 4 needs to be switched around. \n"
+},
+{
+  "Type": 3,
+  "Name": "HDA 4846-B-040-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 40,
+  "Smart": 0,
+  "Material no": 928467,
+  "Note": "Attention: Adapter required, pin 3 and 4 needs to be switched around. \n"
+},
+{
+  "Type": 3,
+  "Name": "HDA 4846-B-040-031(-1...40bar)",
+  "Unit": "BAR",
+  "Min": -1,
+  "Max": 40,
+  "Smart": 0,
+  "Material no": 923323,
+  "Note": "Attention: Adapter required, pin 3 and 4 needs to be switched around. \n"
+},
+{
+  "Type": 3,
+  "Name": "HDA 4846-B-060-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 60,
+  "Smart": 0,
+  "Material no": 922853,
+  "Note": "Attention: Adapter required, pin 3 and 4 needs to be switched around. \n"
+},
+{
+  "Type": 3,
+  "Name": "HDA 4846-B-100-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 100,
+  "Smart": 0,
+  "Material no": 922806,
+  "Note": "Attention: Adapter required, pin 3 and 4 needs to be switched around. \n"
+},
+{
+  "Type": 3,
+  "Name": "HDA 4846-B-100-000 + PP",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 100,
+  "Smart": 0,
+  "Material no": 929187,
+  "Note": "Attention: Adapter required, pin 3 and 4 needs to be switched around. \n"
+},
+{
+  "Type": 3,
+  "Name": "HDA 4846-B-1000-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 1000,
+  "Smart": 0,
+  "Material no": 927766,
+  "Note": "Attention: Adapter required, pin 3 and 4 needs to be switched around. \n"
+},
+{
+  "Type": 3,
+  "Name": "HDA 4846-B-250-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 250,
+  "Smart": 0,
+  "Material no": 922181,
+  "Note": "Attention: Adapter required, pin 3 and 4 needs to be switched around. \n"
+},
+{
+  "Type": 3,
+  "Name": "HDA 4846-B-400-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 400,
+  "Smart": 0,
+  "Material no": 922203,
+  "Note": "Attention: Adapter required, pin 3 and 4 needs to be switched around. \n"
+},
+{
+  "Type": 3,
+  "Name": "HDA 4846-B-600-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 600,
+  "Smart": 0,
+  "Material no": 924302,
+  "Note": "Attention: Adapter required, pin 3 and 4 needs to be switched around. \n"
+},
+{
+  "Type": 2,
+  "Name": "HDA 4846-E-0016-424",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 16,
+  "Smart": 0,
+  "Material no": 928326,
+  "Note": "Attention: Adapter required, pin 3 and 4 needs to be switched around. \n"
+},
+{
+  "Type": 2,
+  "Name": "HDA 4846-E-0250-424",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 250,
+  "Smart": 0,
+  "Material no": 928229,
+  "Note": "Attention: Adapter required, pin 3 and 4 needs to be switched around. \n"
+},
+{
+  "Type": 2,
+  "Name": "HDA 4846-E-100-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 100,
+  "Smart": 0,
+  "Material no": 926481,
+  "Note": "Attention: Adapter required, pin 3 and 4 needs to be switched around. \n"
+},
+{
+  "Type": 2,
+  "Name": "HDA 4846-E-400-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 400,
+  "Smart": 0,
+  "Material no": 922882,
+  "Note": "Attention: Adapter required, pin 3 and 4 needs to be switched around. \n"
+},
+{
+  "Type": 2,
+  "Name": "HDA 4846-E-600-000",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 600,
+  "Smart": 0,
+  "Material no": 922883,
+  "Note": "Attention: Adapter required, pin 3 and 4 needs to be switched around. \n"
+},
+{
+  "Type": 1,
+  "Name": "HDA 4876-A-3000-000(psi)",
+  "Unit": "PSI",
+  "Min": 0,
+  "Max": 3000,
+  "Smart": 0,
+  "Material no": 928440,
+  "Note": ""
+},
+{
+  "Type": 3,
+  "Name": "HDA 4886-B-0200-000(psi)",
+  "Unit": "PSI",
+  "Min": 0,
+  "Max": 200,
+  "Smart": 0,
+  "Material no": 923565,
+  "Note": "Attention: Adapter required, pin 3 and 4 needs to be switched around. \n"
+},
+{
+  "Type": 1,
+  "Name": "HDA 4896-A-025-424",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 25,
+  "Smart": 0,
+  "Material no": 926749,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "HDA 4896-A-400-424",
+  "Unit": "BAR",
+  "Min": 0,
+  "Max": 400,
+  "Smart": 0,
+  "Material no": 926750,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "ETS 4146-A-006-000",
+  "Unit": "Deg C",
+  "Min": -25,
+  "Max": 100,
+  "Smart": 0,
+  "Material no": 909119,
+  "Note": "Probe length 6. \n"
+},
+{
+  "Type": 1,
+  "Name": "ETS 4146-A-050-000",
+  "Unit": "Deg C",
+  "Min": -25,
+  "Max": 100,
+  "Smart": 0,
+  "Material no": 923732,
+  "Note": "Probe length 50. \n"
+},
+{
+  "Type": 1,
+  "Name": "ETS 7246-A-010-000",
+  "Unit": "Deg C",
+  "Min": -25,
+  "Max": 100,
+  "Smart": 0,
+  "Material no": 908120,
+  "Note": "Probe length 10. \n"
+},
+{
+  "Type": 3,
+  "Name": "ETS 7246-B-010-000",
+  "Unit": "Deg C",
+  "Min": -25,
+  "Max": 100,
+  "Smart": 0,
+  "Material no": 921148,
+  "Note": "Probe length 10. \nAttention: Adapter required, pin 3 and 4 needs to be switched around. \n"
+},
+{
+  "Type": 1,
+  "Name": "ETS 4546-A-010-000",
+  "Unit": "Deg C",
+  "Min": -25,
+  "Max": 100,
+  "Smart": 0,
+  "Material no": 923459,
+  "Note": "Probe length 10. \n"
+},
+{
+  "Type": 1,
+  "Name": "ETS 4546-A-050-000",
+  "Unit": "Deg C",
+  "Min": -25,
+  "Max": 100,
+  "Smart": 0,
+  "Material no": 923461,
+  "Note": "Probe length 50. \n"
+},
+{
+  "Type": 1,
+  "Name": "ETS 4546-A-100-000",
+  "Unit": "Deg C",
+  "Min": -25,
+  "Max": 100,
+  "Smart": 0,
+  "Material no": 923463,
+  "Note": "Probe length 100. \n"
+},
+{
+  "Type": 1,
+  "Name": "ETS 4546-A-250-000",
+  "Unit": "Deg C",
+  "Min": -25,
+  "Max": 100,
+  "Smart": 0,
+  "Material no": 923488,
+  "Note": "Probe length 250. \n"
+},
+{
+  "Type": 1,
+  "Name": "ETS 4546-A-350-000",
+  "Unit": "Deg C",
+  "Min": -25,
+  "Max": 100,
+  "Smart": 0,
+  "Material no": 923489,
+  "Note": "Probe length 350. \n"
+},
+{
+  "Type": 3,
+  "Name": "ETS 4546-B-010-000",
+  "Unit": "Deg C",
+  "Min": -25,
+  "Max": 100,
+  "Smart": 0,
+  "Material no": 923460,
+  "Note": "Probe length 10. \nAttention: Adapter required, pin 3 and 4 needs to be switched around. \n"
+},
+{
+  "Type": 3,
+  "Name": "ETS 4546-B-050-000",
+  "Unit": "Deg C",
+  "Min": -25,
+  "Max": 100,
+  "Smart": 0,
+  "Material no": 923462,
+  "Note": "Probe length 50. \nAttention: Adapter required, pin 3 and 4 needs to be switched around. \n"
+},
+{
+  "Type": 3,
+  "Name": "ETS 4546-B-100-000",
+  "Unit": "Deg C",
+  "Min": -25,
+  "Max": 100,
+  "Smart": 0,
+  "Material no": 923464,
+  "Note": "Probe length 100. \nAttention: Adapter required, pin 3 and 4 needs to be switched around. \n"
+},
+{
+  "Type": 3,
+  "Name": "ETS 4546-B-250-000",
+  "Unit": "Deg C",
+  "Min": -25,
+  "Max": 100,
+  "Smart": 0,
+  "Material no": 923725,
+  "Note": "Probe length 250. \nAttention: Adapter required, pin 3 and 4 needs to be switched around. \n"
+},
+{
+  "Type": 3,
+  "Name": "ETS 4546-B-350-000",
+  "Unit": "Deg C",
+  "Min": -25,
+  "Max": 100,
+  "Smart": 0,
+  "Material no": 927153,
+  "Note": "Probe length 350. \nAttention: Adapter required, pin 3 and 4 needs to be switched around. \n"
+},
+{
+  "Type": 1,
+  "Name": "EVS 3106-A-0060-000",
+  "Unit": "L/min",
+  "Min": 6,
+  "Max": 60,
+  "Smart": 0,
+  "Material no": 909810,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "EVS 3106-A-0060-000 + PP",
+  "Unit": "L/min",
+  "Min": 6,
+  "Max": 60,
+  "Smart": 0,
+  "Material no": 928302,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "EVS 3106-A-0300-000",
+  "Unit": "L/min",
+  "Min": 15,
+  "Max": 300,
+  "Smart": 0,
+  "Material no": 909812,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "EVS 3106-A-0600-000",
+  "Unit": "L/min",
+  "Min": 15,
+  "Max": 300,
+  "Smart": 0,
+  "Material no": 921518,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "EVS 3116-A-0060-000",
+  "Unit": "L/min",
+  "Min": 6,
+  "Max": 60,
+  "Smart": 0,
+  "Material no": 921967,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "EVS 3116-A-0300-000",
+  "Unit": "L/min",
+  "Min": 15,
+  "Max": 300,
+  "Smart": 0,
+  "Material no": 921823,
+  "Note": ""
+},
+{
+  "Type": 1,
+  "Name": "EVS 3116-A-0600-000",
+  "Unit": "L/min",
+  "Min": 15,
+  "Max": 300,
+  "Smart": 0,
+  "Material no": 921336,
+  "Note": ""
+},
+{
+  "Type": 2,
+  "Name": "CS 1210-A-0-0-0-1/-000 *",
+  "Unit": " ",
+  "Min": 0,
+  "Max": 200,
+  "Smart": 2,
+  "Material no": 3314212,
+  "Note": "Attention: Adapter required, pin config on sensor: 1 = supply voltage, 2 = Signal, 3 & 4 = GND. Make sure sensor is set to HDA+ISO on analogue out. \n"
+},
+{
+  "Type": 2,
+  "Name": "CS 1321-A-0-0-0-1/-000 *",
+  "Unit": " ",
+  "Min": 0,
+  "Max": 200,
+  "Smart": 2,
+  "Material no": 3497203,
+  "Note": "Attention: Adapter required, pin config on sensor: 1 = supply voltage, 2 = Signal, 3 & 4 = GND. Make sure sensor is set to HDA+ISO on analogue out. \n"
+}
+]
